@@ -66,4 +66,9 @@ export class ListarComponent implements OnInit, AfterViewInit {
       this.dataSource.paginator.firstPage();
     }
   }
+
+  visualizar(aluno: Aluno):void{
+    localStorage.setItem("id",aluno.id.toString());
+    this.router.navigate(["visualizar"]);
+  }
 }

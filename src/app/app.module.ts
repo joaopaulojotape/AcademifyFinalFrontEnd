@@ -26,6 +26,7 @@ import {MatListModule} from "@angular/material/list";
 import {SidebarComponent} from './Nav/sidebar/sidebar.component';
 import {MatButtonModule} from "@angular/material/button";
 import {MatDatepickerModule} from "@angular/material/datepicker";
+import { VisualizarComponent } from './Aluno/visualizar/visualizar.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import {MatDatepickerModule} from "@angular/material/datepicker";
     FooterComponent,
     TotalAlunos,
     SidebarComponent,
+    VisualizarComponent,
 
 
   ],
